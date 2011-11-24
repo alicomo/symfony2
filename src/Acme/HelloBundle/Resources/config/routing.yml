@@ -1,3 +1,8 @@
-AcmeHelloBundle_homepage:
+#AcmeHelloBundle_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: AcmeHelloBundle:Default:index }
+
+# src/Acme/HelloBundle/Resources/config/routing.yml
+hello:
     pattern:  /hello/{name}
-    defaults: { _controller: AcmeHelloBundle:Default:index }
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
