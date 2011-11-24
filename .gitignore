@@ -1,0 +1,8 @@
+app/cache/*
+app/logs/*
+web/uploads/*
+nbproject/*
+*.settings
+*.buildpath
+*.project
+*DS_Store
