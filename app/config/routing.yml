@@ -1,3 +1,7 @@
+AcmeStoreBundle:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
 AcmeHelloBundle:
     resource: "@AcmeHelloBundle/Resources/config/routing.yml"
     prefix:   /
